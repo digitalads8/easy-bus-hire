@@ -213,6 +213,7 @@ if ( ! function_exists( 'es_ajax_search_address_components' ) ) {
      */
     function es_ajax_search_address_components() {
         $query = es_clean( filter_input( INPUT_GET, 'q' ) );
+		$query = "";
         if ( strlen( $query ) > 2 ) {
             $results_addresses_components = get_terms( array(
                 'taxonomy' => 'es_location',
@@ -332,6 +333,8 @@ add_action( 'wp_ajax_es_remove_saved_search', 'es_ajax_remove_saved_search' );
 function es_ajax_get_listings() {
 	$attributes = es_get( 'hash', false ) ? es_get( 'hash', false ) : es_post( 'hash', false );
     $attributes = es_decode( $attributes );
+	$attributes['address']="";
+	//var_dump($attributes);
     $need_reload_map = es_get( 'reload_map' ) ? es_get( 'reload_map' ) : es_post( 'reload_map' );
     $attributes['_ajax_mode'] = true;
     $attributes['_ignore_coordinates'] = ! $need_reload_map;
@@ -360,7 +363,7 @@ function es_ajax_get_listings() {
 
     $response['loop_uid'] = $attributes['loop_uid'];
     $response['reload_map'] = $need_reload_map;
-
+	//var_dump($attributes);
     wp_die( json_encode( $response ) );
 }
 add_action( 'wp_ajax_get_listings', 'es_ajax_get_listings' );
