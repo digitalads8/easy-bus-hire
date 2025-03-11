@@ -1,0 +1,105 @@
+# dependencies
+/node_modules
+
+**/node_modules
+build/node_modules
+package-lock.json
+
+# testing
+/coverage
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+**/.sass-cache
+
+**/DejaVuSans-BoldOblique.ttf
+**/DejaVuSans-Oblique.ttf
+**/DejaVuSansCondensed.ttf
+**/DejaVuSansCondensed-Bold.ttf
+**/DejaVuSansCondensed-BoldOblique.ttf
+**/DejaVuSansCondensed-Oblique.ttf
+**/DejaVuSansMono.ttf
+**/DejaVuSansMono-Bold.ttf
+**/DejaVuSansMono-BoldOblique.ttf
+**/DejaVuSansMono-Oblique.ttf
+**/DejaVuSerif.ttf
+**/DejaVuSerif-Bold.ttf
+**/DejaVuSerif-BoldItalic.ttf
+**/DejaVuSerif-Italic.ttf
+**/DejaVuSerifCondensed.ttf
+**/DejaVuSerifCondensed-Bold.ttf
+**/DejaVuSerifCondensed-BoldItalic.ttf
+**/DejaVuSerifCondensed-Italic.ttf
+
+**/AboriginalSansREGULAR.ttf
+**/Abyssinica_SIL.ttf
+**/Aegean.otf
+**/Aegyptus.otf
+**/Akkadian.otf
+**/DBSILBR.ttf
+
+
+**/Dhyana-Bold.ttf
+**/Dhyana-Regular.ttf
+**/DhyanaOFL.txt
+**/FreeMono.ttf
+**/FreeMonoBold.ttf
+**/FreeMonoBoldOblique.ttf
+**/FreeMonoOblique.ttf
+**/FreeSans.ttf
+**/FreeSansBold.ttf
+**/FreeSansBoldOblique.ttf
+**/FreeSansOblique.ttf
+**/FreeSerif.ttf
+**/FreeSerifBold.ttf
+**/FreeSerifBoldItalic.ttf
+**/FreeSerifItalic.ttf
+**/GNUFreeFontinfo.txt
+**/Garuda-Bold.ttf
+**/Garuda-BoldOblique.ttf
+**/Garuda-Oblique.ttf
+**/Garuda.ttf
+**/Jomolhari-OFL.txt
+**/Jomolhari.ttf
+**/KhmerOFL.txt
+**/KhmerOS.ttf
+**/Lateef font OFL.txt
+**/LateefRegOT.ttf
+**/Lohit-Kannada.ttf
+**/LohitKannadaOFL.txt
+**/Padauk-book.ttf
+**/Pothana2000.ttf
+**/Quivira.otf
+**/Sun-ExtA.ttf
+**/Sun-ExtB.ttf
+**/SundaneseUnicode-1.0.5.ttf
+**/SyrCOMEdessa.otf
+**/SyrCOMEdessa_license.txt
+**/TaameyDavidCLM-LICENSE.txt
+**/TaameyDavidCLM-Medium.ttf
+**/TaiHeritagePro.ttf
+**/Tharlon-Regular.ttf
+**/TharlonOFL.txt
+**/UnBatang_0613.ttf
+**/Uthman.otf
+**/XB Riyaz.ttf
+**/XB RiyazBd.ttf
+**/XB RiyazBdIt.ttf
+**/XB RiyazIt.ttf
+**/XW Zar Font Info.txt
+**/ZawgyiOne.ttf
+**/ayar.ttf
+**/damase_v.2.ttf
+**/kaputaunicode.ttf
+**/lannaalif-v1-03.ttf
+**/ocrb10.ttf
+**/ocrbinfo.txt
